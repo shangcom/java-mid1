@@ -27,7 +27,7 @@ public class NetworkClientV1 {
         // 전송 실패 : sendError 오류코드 반환
         if (sendError) {
             System.out.println(adress + " 서버 데이터 전송 실패 " + data);
-            return "connectError";
+            return "sendError";
         }
         // 전송 성공
         System.out.println(adress + " 서버에 데이터 전송: " + data);

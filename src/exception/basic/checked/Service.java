@@ -6,6 +6,7 @@ public class Service {
 
     /**
      * 예외를 잡아서 처리하는 코드
+     * 예외가 발생하면 try 블록의 나머지 부분은 실행되지 않고, 곧바로 catch 블록으로 이동한다.
      */
     public void callCatch() {
         try {
